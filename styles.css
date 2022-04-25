@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main wrapper */
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    transition: 0.3s;
+}
+
+/* Title */
+#title {
+    font-size: 56px;
+}
+
+/* Option cards */
+#options {
+    display: flex;
+}
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1vw;
+    transition: transform 0.2s;
+}
+.option:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.option__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option__image > img {
+    height: 8vw;
+    width: 8vw;
+}
+.option__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+/* Result */
+#result__wrapper {
+    visibility: hidden;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Score */
+#score__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.score__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+}
+.score__title {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.score__points {
+    font-size: 20px;
+    padding: 0;
+    margin: 1vw;
+}

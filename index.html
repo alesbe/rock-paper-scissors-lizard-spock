@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock, paper, scissors, lizard, spock!</title>
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <p id="title">Rock, paper, scissors, lizard, spock!</p>
+
+            <div id="options">
+                <div class="option" id="rock-container" onclick="playerChoose('rock')">
+                    <div class="option__image">
+                        <img src="images/rock.png">
+                    </div>
+                    <p class="option__text">Rock</p>
+                </div>
+
+                <div class="option" id="paper-container" onclick="playerChoose('paper')">
+                    <div class="option__image">
+                        <img src="images/paper.png">
+                    </div>
+                    <p class="option__text">Paper</p>
+                </div>
+
+                <div class="option" id="scissors-container" onclick="playerChoose('scissors')">
+                    <div class="option__image">
+                        <img src="images/scissors.png">
+                    </div>
+                    <p class="option__text">Scissors</p>
+                </div>
+
+                <div class="option" id="lizard-container" onclick="playerChoose('lizard')">
+                    <div class="option__image">
+                        <img src="images/lizard.png">
+                    </div>
+                    <p class="option__text">Lizard</p>
+                </div>
+
+                <div class="option" id="spock-container" onclick="playerChoose('spock')">
+                    <div class="option__image">
+                        <img src="images/spock.png">
+                    </div>
+                    <p class="option__text">Spock</p>
+                </div>
+            </div>
+
+            <div id="result__wrapper">
+                <p id="result__text">Oh no! Rock crushes lizard!</p>
+            </div>
+
+            <div id="score__wrapper">
+                <div class="score__container">
+                    <p class="score__title">You</p>
+                    <p class="score__points" id="score-player">0</p>
+                </div>
+
+                <div class="score__container">
+                    <p class="score__title">Computer</p>
+                    <p class="score__points" id="score-computer">0</p>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
