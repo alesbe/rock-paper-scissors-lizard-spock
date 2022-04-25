@@ -3,7 +3,7 @@
 
 Rock, paper, scissors, lizard, spock made with pure JS!
 
-# [Open game]()
+# [Open game](https://alesbe.github.io/rock-paper-scissors-lizard-spock/)
 
 ## Usage 🦎
 Classic game of Rock, paper, scissors, but with two more options! Select an option and see if you won versus the computer!
